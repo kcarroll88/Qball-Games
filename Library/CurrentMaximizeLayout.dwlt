@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 1030
-  m_MinSize: {x: 200, y: 344}
-  m_MaxSize: {x: 4000, y: 8044}
+  m_MinSize: {x: 200, y: 322}
+  m_MaxSize: {x: 4000, y: 8022}
   vertical: 0
-  controlID: 24447
+  controlID: 25195
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -126,10 +126,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 1030
-  m_MinSize: {x: 200, y: 344}
-  m_MaxSize: {x: 4000, y: 8044}
+  m_MinSize: {x: 200, y: 322}
+  m_MaxSize: {x: 4000, y: 8022}
   vertical: 1
-  controlID: 24448
+  controlID: 25196
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -194,9 +194,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.5259253, y: -0.74114454, z: -4544.3457}
+    m_Target: {x: 0.009231775, y: -0.10225794, z: -18.34375}
     speed: 2
-    m_Value: {x: 0.5259253, y: -0.74114454, z: -4544.3457}
+    m_Value: {x: 0.009231775, y: -0.10225794, z: -18.34375}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -229,9 +229,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 14.769216
+    m_Target: 24.919832
     speed: 2
-    m_Value: 14.769216
+    m_Value: 24.919832
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -249,7 +249,7 @@ MonoBehaviour:
     m_DynamicClip: 1
     m_OcclusionCulling: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.27124158, y: -0.028874692, z: 0.008140963, w: 0.9620447}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -337,7 +337,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -21060
+  m_LastSelectedObjectID: -21040
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -402,10 +402,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: deaf4b2f527a142c8bfd9f59c3e6142e,
+  m_AnimatorController: {fileID: 9100000, guid: 9987f632ac89446feb67e103aa4f84b2,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1607370279303502431, guid: deaf4b2f527a142c8bfd9f59c3e6142e,
+  - m_Target: {fileID: 4591708940272458428, guid: 9987f632ac89446feb67e103aa4f84b2,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
