@@ -92,6 +92,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -100,15 +103,6 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
@@ -127,6 +121,12 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>

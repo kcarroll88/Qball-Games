@@ -1,12 +1,11 @@
 ﻿<Properties StartupConfiguration="{39450984-00C0-1A85-ACA5-73F78F930100}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneLoader.cs">
     <Files>
-      <File FileName="Assets/Scripts/SceneLoader.cs" Line="4" Column="12" />
+      <File FileName="Assets/Scripts/SceneLoader.cs" Line="17" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="39e9863c-f91a-4e9c-863d-fb01af90c723" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
