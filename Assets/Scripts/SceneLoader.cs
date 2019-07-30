@@ -17,6 +17,11 @@ public class SceneLoader : MonoBehaviour
         }
     }
 
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(1);
+    }
+
     public void LoadNextScene()
     {
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
