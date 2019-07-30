@@ -6,6 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    public void SplashScene()
+    {
+        var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        if (currentSceneIndex == 0)
+        {
+            StartCoroutine(SplashScreenTime());
+            LoadNextScene();
+        }
+    }
+
     public void LoadNextScene()
     {
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -15,17 +26,6 @@ public class SceneLoader : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
-    }
-
-    public void SplashScene()
-    {
-        var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-
-        if (currentSceneIndex == 0)
-        {
-            StartCoroutine(SplashScreenTime());
-            SceneManager.LoadScene(currentSceneIndex + 1);
-        }
     }
 
     IEnumerator SplashScreenTime()
