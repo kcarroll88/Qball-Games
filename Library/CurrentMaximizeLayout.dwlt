@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 222}
   m_MaxSize: {x: 8004, y: 4022}
   vertical: 0
-  controlID: 10738
+  controlID: 17462
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,8 +125,8 @@ MonoBehaviour:
     y: 0
     width: 947
     height: 1030
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 4}
   m_Panes:
   - {fileID: 4}
@@ -169,9 +169,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.0492268, y: -6.162382, z: -520.4039}
+    m_Target: {x: -1.817979, y: -3.9710743, z: -857.4844}
     speed: 2
-    m_Value: {x: -4.0492268, y: -6.162382, z: -520.4039}
+    m_Value: {x: -1.817979, y: -3.9710743, z: -857.4844}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -204,9 +204,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 38.72823
+    m_Target: 15.8547735
     speed: 2
-    m_Value: 38.72823
+    m_Value: 15.8547735
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -276,8 +276,8 @@ MonoBehaviour:
     y: 0
     width: 973
     height: 1030
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}

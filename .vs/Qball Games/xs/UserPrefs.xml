@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{39450984-00C0-1A85-ACA5-73F78F930100}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MathGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Clouds.cs">
     <Files>
       <File FileName="Assets/Scripts/SceneLoader.cs" Line="22" Column="35" />
       <File FileName="Assets/Scripts/SplashTextFade.cs" Line="19" Column="42" />
-      <File FileName="Assets/Scripts/MathGame.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/MathGame.cs" Line="28" Column="10" />
+      <File FileName="Assets/Scripts/Clouds.cs" Line="7" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
