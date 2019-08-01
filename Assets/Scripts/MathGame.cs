@@ -17,7 +17,7 @@ public class MathGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        playing = true;
     }
 
     // Update is called once per frame
