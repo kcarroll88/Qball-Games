@@ -35,7 +35,7 @@ public class MathGame : MonoBehaviour
             var number2 = UnityEngine.Random.Range(minNumber, maxNumber);
 
             // Set Problem
-            var mathProblem = (number1, "+", number2);
+            var mathProblem = (number1 + " + " + number2);
             mathProblemText.text = mathProblem.ToString();
 
             newQuestion = false;
