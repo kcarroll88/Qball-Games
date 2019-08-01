@@ -5,7 +5,7 @@
       <File FileName="Assets/Scripts/SplashTextFade.cs" Line="19" Column="42" />
       <File FileName="Assets/Scripts/Clouds.cs" Line="25" Column="74" />
       <File FileName="Assets/Scripts/CloudSpawner.cs" Line="26" Column="69" />
-      <File FileName="Assets/Scripts/Timer.cs" Line="29" Column="55" />
+      <File FileName="Assets/Scripts/Timer.cs" Line="30" Column="10" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
