@@ -17,7 +17,7 @@ public class MathGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CreateMathProblem();
+
     }
 
     // Update is called once per frame
@@ -28,7 +28,7 @@ public class MathGame : MonoBehaviour
 
     public void CreateMathProblem()
     {
-        while (playing)
+        if (playing)
         {
             if (answerCorrect == true)
             {
@@ -46,11 +46,15 @@ public class MathGame : MonoBehaviour
                 answerText.text = mathProblemAnswer.ToString();
                 return;
             }
-            else if (answerCorrect == false)
+            else
             {
                 answerText.text = "???";
                 return;
             }
+        }
+        else
+        {
+            return;
         }
     }
 }
