@@ -9,6 +9,7 @@ public class MathGame : MonoBehaviour
     [SerializeField] int minNumber;
     [SerializeField] int maxNumber;
     [SerializeField] Text mathProblemText;
+    [SerializeField] Text answerText;
 
     [SerializeField] bool playing = true;
 
@@ -28,11 +29,17 @@ public class MathGame : MonoBehaviour
     {
         while (playing)
         {
+            // Make random numbers between min and max range
             var number1 = UnityEngine.Random.Range(minNumber, maxNumber);
             var number2 = UnityEngine.Random.Range(minNumber, maxNumber);
-            var mathProblem = number1 + number2;
 
-            mathProblemText.text = mathProblem.ToString();
+            // Set Problem
+            mathProblemText.text = (minNumber.ToString(), " + ", maxNumber.ToString());
+
+            // Answer
+            var mathProblemAnswer = number1 + number2;
+
+            answerText.text = mathProblemAnswer.ToString();
             return;
         }
     }
