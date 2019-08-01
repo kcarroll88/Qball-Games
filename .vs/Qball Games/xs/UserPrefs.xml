@@ -1,23 +1,17 @@
 ﻿<Properties StartupConfiguration="{39450984-00C0-1A85-ACA5-73F78F930100}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Timer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MathGame.cs">
     <Files>
       <File FileName="Assets/Scripts/SceneLoader.cs" Line="22" Column="35" />
-      <File FileName="Assets/Scripts/SplashTextFade.cs" Line="19" Column="42" />
-      <File FileName="Assets/Scripts/Clouds.cs" Line="25" Column="74" />
-      <File FileName="Assets/Scripts/CloudSpawner.cs" Line="26" Column="69" />
+      <File FileName="Assets/Scripts/SplashTextFade.cs" />
+      <File FileName="Assets/Scripts/Clouds.cs" />
+      <File FileName="Assets/Scripts/CloudSpawner.cs" />
       <File FileName="Assets/Scripts/Timer.cs" Line="30" Column="10" />
+      <File FileName="Assets/Scripts/MathGame.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Qball Games" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c2fcfbe2-0916-40e7-ab12-dc9c197e24fb" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c2a4a7ae-d626-4645-8b41-2c6749fef2b4" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1319,6 +1319,7 @@ GameObject:
   - component: {fileID: 571183565}
   - component: {fileID: 571183567}
   - component: {fileID: 571183566}
+  - component: {fileID: 571183568}
   m_Layer: 5
   m_Name: Math Question Text
   m_TagString: Untagged
@@ -1387,6 +1388,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571183564}
   m_CullTransparentMesh: 0
+--- !u!114 &571183568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571183564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da891f142b9964707a484875770a9786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minNumber: 0
+  maxNumber: 10
+  mathProblemText: {fileID: 571183566}
+  playing: 0
 --- !u!1 &635002690
 GameObject:
   m_ObjectHideFlags: 0
