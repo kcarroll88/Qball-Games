@@ -1403,6 +1403,7 @@ MonoBehaviour:
   minNumber: 0
   maxNumber: 10
   mathProblemText: {fileID: 571183566}
+  answerText: {fileID: 551781600}
   playing: 0
 --- !u!1 &635002690
 GameObject:

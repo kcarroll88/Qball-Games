@@ -12,11 +12,12 @@ public class MathGame : MonoBehaviour
     [SerializeField] Text answerText;
 
     [SerializeField] bool playing = true;
+    [SerializeField] bool answerCorrect;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        CreateMathProblem();
     }
 
     // Update is called once per frame
@@ -29,19 +30,27 @@ public class MathGame : MonoBehaviour
     {
         while (playing)
         {
-            // Make random numbers between min and max range
-            var number1 = UnityEngine.Random.Range(minNumber, maxNumber);
-            var number2 = UnityEngine.Random.Range(minNumber, maxNumber);
+            if (answerCorrect == true)
+            {
+                // Make random numbers between min and max range
+                var number1 = UnityEngine.Random.Range(minNumber, maxNumber);
+                var number2 = UnityEngine.Random.Range(minNumber, maxNumber);
 
-            // Set Problem
-            var mathProblem = (number1.ToString(), "+", number2.ToString());
-            mathProblemText.text = mathProblem.ToString();
+                // Set Problem
+                var mathProblem = (number1, "+", number2);
+                mathProblemText.text = mathProblem.ToString();
 
-            // Answer
-            var mathProblemAnswer = number1 + number2;
+                // Answer
+                var mathProblemAnswer = number1 + number2;
 
-            answerText.text = mathProblemAnswer.ToString();
-            return;
+                answerText.text = mathProblemAnswer.ToString();
+                return;
+            }
+            else if (answerCorrect == false)
+            {
+                answerText.text = "???";
+                return;
+            }
         }
     }
 }
