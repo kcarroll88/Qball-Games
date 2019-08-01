@@ -11,13 +11,13 @@ public class MathGame : MonoBehaviour
     [SerializeField] Text mathProblemText;
     [SerializeField] Text answerText;
 
-    [SerializeField] bool playing = true;
+    [SerializeField] bool newQuestion = true;
     [SerializeField] bool answerCorrect;
 
     // Start is called before the first frame update
     void Start()
     {
-        playing = true;
+        newQuestion = true;
     }
 
     // Update is called once per frame
@@ -28,7 +28,7 @@ public class MathGame : MonoBehaviour
 
     public void CreateMathProblem()
     {
-        if (playing)
+        if (newQuestion)
         {
             // Make random numbers between min and max range
             var number1 = UnityEngine.Random.Range(minNumber, maxNumber);
@@ -38,7 +38,7 @@ public class MathGame : MonoBehaviour
             var mathProblem = (number1, "+", number2);
             mathProblemText.text = mathProblem.ToString();
 
-            playing = false;
+            newQuestion = false;
 
             if (answerCorrect == true)
             {
@@ -46,7 +46,7 @@ public class MathGame : MonoBehaviour
                 var mathProblemAnswer = number1 + number2;
                 answerText.text = mathProblemAnswer.ToString();
 
-                playing = false;
+                newQuestion = false;
                 answerCorrect = false;
 
                 return;
