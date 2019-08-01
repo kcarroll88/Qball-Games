@@ -30,20 +30,25 @@ public class MathGame : MonoBehaviour
     {
         if (playing)
         {
+            // Make random numbers between min and max range
+            var number1 = UnityEngine.Random.Range(minNumber, maxNumber);
+            var number2 = UnityEngine.Random.Range(minNumber, maxNumber);
+
+            // Set Problem
+            var mathProblem = (number1, "+", number2);
+            mathProblemText.text = mathProblem.ToString();
+
+            playing = false;
+
             if (answerCorrect == true)
             {
-                // Make random numbers between min and max range
-                var number1 = UnityEngine.Random.Range(minNumber, maxNumber);
-                var number2 = UnityEngine.Random.Range(minNumber, maxNumber);
-
-                // Set Problem
-                var mathProblem = (number1, "+", number2);
-                mathProblemText.text = mathProblem.ToString();
-
                 // Answer
                 var mathProblemAnswer = number1 + number2;
-
                 answerText.text = mathProblemAnswer.ToString();
+
+                playing = false;
+                answerCorrect = false;
+
                 return;
             }
             else
