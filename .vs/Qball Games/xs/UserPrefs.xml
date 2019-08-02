@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{39450984-00C0-1A85-ACA5-73F78F930100}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MathGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Games SDK for Alexa/Examples/LightControlDemo.cs">
     <Files>
       <File FileName="Assets/Scripts/SceneLoader.cs" Line="22" Column="35" />
       <File FileName="Assets/Scripts/SplashTextFade.cs" />
       <File FileName="Assets/Scripts/Clouds.cs" />
       <File FileName="Assets/Scripts/CloudSpawner.cs" />
-      <File FileName="Assets/Scripts/Timer.cs" Line="30" Column="10" />
-      <File FileName="Assets/Scripts/MathGame.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Timer.cs" />
+      <File FileName="Assets/Scripts/MathGame.cs" Line="39" Column="48" />
+      <File FileName="Assets/Games SDK for Alexa/Examples/LightControlDemo.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c2a4a7ae-d626-4645-8b41-2c6749fef2b4" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="41d6e4e0-feee-45b6-ac00-ee818086c580" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
