@@ -325,6 +325,7 @@
     <Compile Include="Assets\Games SDK for Alexa\Examples\LightControlDemo.cs" />
     <Compile Include="Assets\Scripts\Clouds.cs" />
     <Compile Include="Assets\Scripts\CloudSpawner.cs" />
+    <Compile Include="Assets\Scripts\MainMenuCamera.cs" />
     <Compile Include="Assets\Scripts\MathGame.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\SplashTextFade.cs" />

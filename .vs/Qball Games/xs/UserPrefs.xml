@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{39450984-00C0-1A85-ACA5-73F78F930100}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MathGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MainMenuCamera.cs">
     <Files>
       <File FileName="Assets/Scripts/SceneLoader.cs" Line="22" Column="35" />
       <File FileName="Assets/Scripts/SplashTextFade.cs" />
@@ -7,8 +7,9 @@
       <File FileName="Assets/Scripts/CloudSpawner.cs" />
       <File FileName="Assets/Scripts/Timer.cs" />
       <File FileName="Assets/Scripts/MathGame.cs" Line="39" Column="48" />
-      <File FileName="../../../../../Desktop/Qball_Games_Node/package.json" />
+      <File FileName="../../../../../Desktop/Qball_Games_Node/package.json" Line="15" Column="1" />
       <File FileName="Assets/Games SDK for Alexa/Examples/LightControlDemo.cs" />
+      <File FileName="Assets/Scripts/MainMenuCamera.cs" Line="16" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
