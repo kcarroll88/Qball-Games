@@ -587,20 +587,14 @@
     <Reference Include="nunit.framework">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.9f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+    <Reference Include="MarkerMetro.Unity.WinLegacy">
+      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Assets/Games SDK for Alexa/Deps/PubNub/ThirdParty/MarkerMetro.Unity.WinLegacy.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    <Reference Include="BouncyCastle">
+      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Assets/Games SDK for Alexa/Deps/PubNub/ThirdParty/BouncyCastle.dll</HintPath>
     </Reference>
     <Reference Include="JsonFx.Json">
       <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Assets/Games SDK for Alexa/Deps/PubNub/ThirdParty/JsonFx.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="MarkerMetro.Unity.WinLegacy">
-      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Assets/Games SDK for Alexa/Deps/PubNub/ThirdParty/MarkerMetro.Unity.WinLegacy.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.CognitoIdentity">
       <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Assets/Games SDK for Alexa/Deps/AWSSDK/AWSSDK.CognitoIdentity.dll</HintPath>
@@ -611,11 +605,17 @@
     <Reference Include="AWSSDK.Core">
       <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Assets/Games SDK for Alexa/Deps/AWSSDK/AWSSDK.Core.dll</HintPath>
     </Reference>
-    <Reference Include="BouncyCastle">
-      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Assets/Games SDK for Alexa/Deps/PubNub/ThirdParty/BouncyCastle.dll</HintPath>
-    </Reference>
     <Reference Include="AWSSDK.SecurityToken">
       <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Assets/Games SDK for Alexa/Deps/AWSSDK/AWSSDK.SecurityToken.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>/Users/keenancarroll/Documents/Unity Repos/Unity 2D/yellow_eye/Qball Games/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.9f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
