@@ -8,12 +8,15 @@ public class MainMenuCamera : MonoBehaviour
     [SerializeField] float cameraSpeed;
 
     Camera mainCamera;
+    Animator myAnimator;
 
     // Start is called before the first frame update
     void Start()
     {
         mainCamera = Camera.main;
+        myAnimator = GetComponent<Animator>();
         MoveCameraMainMenu();
+        myAnimator.SetBool("menuClicked", false);
     }
 
     // Update is called once per frame
@@ -24,11 +27,13 @@ public class MainMenuCamera : MonoBehaviour
 
     public void MoveCameraGamePicker()
     {
-        mainCamera.transform.position = new Vector3(20, transform.position.y, -10);
+        myAnimator.SetBool("menuClicked", false);
+        myAnimator.SetBool("startClicked", true);
     }
 
     public void MoveCameraMainMenu()
     {
-        mainCamera.transform.position = new Vector3(0, 0, -10);
+        myAnimator.SetBool("startClicked", false);
+        myAnimator.SetBool("menuClicked", true);
     }
 }
