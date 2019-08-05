@@ -323,6 +323,7 @@
     <Compile Include="Assets\Games SDK for Alexa\Deps\PubNub\Workers\PresenceHeartbeatWorker.cs" />
     <Compile Include="Assets\Games SDK for Alexa\Deps\PubNub\Workers\SubscriptionWorker.cs" />
     <Compile Include="Assets\Games SDK for Alexa\Examples\LightControlDemo.cs" />
+    <Compile Include="Assets\Scripts\ButtonManager.cs" />
     <Compile Include="Assets\Scripts\Clouds.cs" />
     <Compile Include="Assets\Scripts\CloudSpawner.cs" />
     <Compile Include="Assets\Scripts\MainMenuCamera.cs" />

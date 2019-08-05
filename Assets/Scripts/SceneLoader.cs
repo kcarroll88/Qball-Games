@@ -33,6 +33,11 @@ public class SceneLoader : MonoBehaviour
         Application.Quit();
     }
 
+    public void MathHotPotatoe()
+    {
+        SceneManager.LoadScene("Math Hot Potatoe");
+    }
+
     IEnumerator SplashScreenTime()
     {
         yield return new WaitForSeconds(3f);
