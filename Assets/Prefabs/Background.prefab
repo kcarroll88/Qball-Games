@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 36959636}
   - component: {fileID: 36959635}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AproachingWallPattern (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,8 +28,8 @@ Transform:
   m_LocalPosition: {x: 8.350648, y: -4.6812973, z: 0.33373672}
   m_LocalScale: {x: 1.8781, y: 1.8781, z: 1.8781}
   m_Children: []
-  m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 8
+  m_Father: {fileID: 6563569650178961279}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &36959635
 SpriteRenderer:
@@ -67,7 +67,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: eb4fe75c66482e849abe326d94453aed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -89,7 +89,7 @@ GameObject:
   m_Component:
   - component: {fileID: 80091877}
   - component: {fileID: 80091878}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistantCavesBG (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ Transform:
   m_LocalScale: {x: 1.0709037, y: 1.0709037, z: 1.0709037}
   m_Children: []
   m_Father: {fileID: 8668917179035798062}
-  m_RootOrder: 7
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &80091878
 SpriteRenderer:
@@ -168,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 146889660}
   - component: {fileID: 146889659}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AlienStatue05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +225,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 600064507324d1149b26bb86c93e1fd3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -247,7 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 187951026}
   - component: {fileID: 187951027}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AproachingWallPattern (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -265,8 +265,8 @@ Transform:
   m_LocalPosition: {x: 18.51, y: -4.6812973, z: 0.33373672}
   m_LocalScale: {x: 1.8781, y: 1.8781, z: 1.8781}
   m_Children: []
-  m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 13
+  m_Father: {fileID: 6563569650178961279}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &187951027
 SpriteRenderer:
@@ -304,7 +304,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: eb4fe75c66482e849abe326d94453aed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 216847162}
   - component: {fileID: 216847164}
   - component: {fileID: 216847163}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FloatingRockR (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,7 +346,7 @@ Transform:
   m_LocalScale: {x: 1.1501849, y: 1.1501849, z: 1.1501849}
   m_Children: []
   m_Father: {fileID: 8668917179035798062}
-  m_RootOrder: 14
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &216847164
 SpriteRenderer:
@@ -384,7 +384,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 993c10c45f6b25e4c9b51f192b34fa12, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -425,7 +425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 294149314}
   - component: {fileID: 294149315}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistantMount(tilable) (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,11 +440,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 294149313}
   m_LocalRotation: {x: -0, y: -0, z: -1, w: 0.00030847266}
-  m_LocalPosition: {x: 32.31, y: 5.62, z: 0.33373672}
+  m_LocalPosition: {x: 32.31, y: 5.62, z: 4}
   m_LocalScale: {x: 1.4463928, y: 2.223829, z: 1.4463916}
   m_Children: []
   m_Father: {fileID: 8668917179035798062}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -179.96501}
 --- !u!212 &294149315
 SpriteRenderer:
@@ -482,7 +482,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 562939ad906ef07468206650fdfd5735, type: 3}
   m_Color: {r: 0.3301887, g: 0.32240123, b: 0.32240123, a: 1}
   m_FlipX: 0
@@ -504,7 +504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 323749991}
   - component: {fileID: 323749992}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Alcove (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -561,7 +561,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: aac9a30c9c349534990e2d84f22e7b28, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -583,7 +583,7 @@ GameObject:
   m_Component:
   - component: {fileID: 361140725}
   - component: {fileID: 361140724}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TreeL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -602,7 +602,7 @@ Transform:
   m_LocalScale: {x: 2.639, y: 2.639, z: 2.639}
   m_Children: []
   m_Father: {fileID: 8668917179035798062}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &361140724
 SpriteRenderer:
@@ -640,7 +640,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300022, guid: 776d10e19ab11c44a8271fc18a42ab83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.972549}
   m_FlipX: 0
@@ -662,7 +662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 404834807}
   - component: {fileID: 404834806}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WallTile (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -680,8 +680,8 @@ Transform:
   m_LocalPosition: {x: -7.5993514, y: -5.0812974, z: 0.33373672}
   m_LocalScale: {x: 2.407, y: 2.407, z: 2.407}
   m_Children: []
-  m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 1
+  m_Father: {fileID: 6563569650178961279}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &404834806
 SpriteRenderer:
@@ -719,7 +719,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 6aa3a976ac9ecc54aad638ffbf4e67c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -741,7 +741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 418392152}
   - component: {fileID: 418392153}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistantCavesBG (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -760,7 +760,7 @@ Transform:
   m_LocalScale: {x: 1.0709037, y: 1.0709037, z: 1.0709037}
   m_Children: []
   m_Father: {fileID: 8668917179035798062}
-  m_RootOrder: 6
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &418392153
 SpriteRenderer:
@@ -820,7 +820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 456874337}
   - component: {fileID: 456874336}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AlienTreeR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -839,7 +839,7 @@ Transform:
   m_LocalScale: {x: 3.3125, y: 3.3125, z: 3.3125}
   m_Children: []
   m_Father: {fileID: 8668917179035798062}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &456874336
 SpriteRenderer:
@@ -877,7 +877,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 776d10e19ab11c44a8271fc18a42ab83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.9019608}
   m_FlipX: 0
@@ -899,7 +899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 538921954}
   - component: {fileID: 538921953}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AproachingWallPattern
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -917,8 +917,8 @@ Transform:
   m_LocalPosition: {x: -0.59935135, y: -4.6812973, z: 0.33373672}
   m_LocalScale: {x: 1.8781, y: 1.8781, z: 1.8781}
   m_Children: []
-  m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 6
+  m_Father: {fileID: 6563569650178961279}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &538921953
 SpriteRenderer:
@@ -956,7 +956,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: eb4fe75c66482e849abe326d94453aed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -978,7 +978,7 @@ GameObject:
   m_Component:
   - component: {fileID: 557949090}
   - component: {fileID: 557949091}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AlienTreeL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -997,7 +997,7 @@ Transform:
   m_LocalScale: {x: 3.3125, y: 3.3125, z: 3.3125}
   m_Children: []
   m_Father: {fileID: 8668917179035798062}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &557949091
 SpriteRenderer:
@@ -1035,7 +1035,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 776d10e19ab11c44a8271fc18a42ab83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.9019608}
   m_FlipX: 1
@@ -1057,7 +1057,7 @@ GameObject:
   m_Component:
   - component: {fileID: 576638165}
   - component: {fileID: 576638164}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FernR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1114,7 +1114,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 8
   m_Sprite: {fileID: 21300010, guid: 2b30fc6e4ddac2545af6462ae063edad, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5888,7 +5888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 826655678}
   - component: {fileID: 826655677}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5967,7 +5967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 877708117}
   - component: {fileID: 877708118}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WallTile (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5985,8 +5985,8 @@ Transform:
   m_LocalPosition: {x: 21.23, y: -5.0812974, z: 0.33373672}
   m_LocalScale: {x: 2.407, y: 2.407, z: 2.407}
   m_Children: []
-  m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 10
+  m_Father: {fileID: 6563569650178961279}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &877708118
 SpriteRenderer:
@@ -6024,7 +6024,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 6aa3a976ac9ecc54aad638ffbf4e67c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6046,7 +6046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1123843973}
   - component: {fileID: 1123843974}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistantMount(tilable) (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6103,7 +6103,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 562939ad906ef07468206650fdfd5735, type: 3}
   m_Color: {r: 0.3301887, g: 0.32240123, b: 0.32240123, a: 1}
   m_FlipX: 0
@@ -6125,7 +6125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1166707580}
   - component: {fileID: 1166707579}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AlienMushrooms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6182,7 +6182,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 8
   m_Sprite: {fileID: 21300020, guid: 6e43932fcf79bb44881725c7dba2dfde, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6204,7 +6204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1266166352}
   - component: {fileID: 1266166351}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WallTile (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6222,8 +6222,8 @@ Transform:
   m_LocalPosition: {x: 2.0106483, y: -5.0812974, z: 0.33373672}
   m_LocalScale: {x: 2.407, y: 2.407, z: 2.407}
   m_Children: []
-  m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 3
+  m_Father: {fileID: 6563569650178961279}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1266166351
 SpriteRenderer:
@@ -6261,7 +6261,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 6aa3a976ac9ecc54aad638ffbf4e67c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6283,7 +6283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1287251951}
   - component: {fileID: 1287251952}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WallTile (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6301,8 +6301,8 @@ Transform:
   m_LocalPosition: {x: 26.03, y: -5.0812974, z: 0.33373672}
   m_LocalScale: {x: 2.407, y: 2.407, z: 2.407}
   m_Children: []
-  m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 11
+  m_Father: {fileID: 6563569650178961279}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1287251952
 SpriteRenderer:
@@ -6340,7 +6340,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 6aa3a976ac9ecc54aad638ffbf4e67c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6362,7 +6362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1290736402}
   - component: {fileID: 1290736401}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WallTile (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6380,8 +6380,8 @@ Transform:
   m_LocalPosition: {x: 11.610649, y: -5.0812974, z: 0.33373672}
   m_LocalScale: {x: 2.407, y: 2.407, z: 2.407}
   m_Children: []
-  m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 5
+  m_Father: {fileID: 6563569650178961279}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1290736401
 SpriteRenderer:
@@ -6419,7 +6419,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 6aa3a976ac9ecc54aad638ffbf4e67c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6441,7 +6441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1320989283}
   - component: {fileID: 1320989282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistantMount(tilable)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6460,7 +6460,7 @@ Transform:
   m_LocalScale: {x: 1.8899807, y: 2.9058454, z: 1.8899807}
   m_Children: []
   m_Father: {fileID: 8668917179035798062}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1320989282
 SpriteRenderer:
@@ -6498,7 +6498,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 562939ad906ef07468206650fdfd5735, type: 3}
   m_Color: {r: 0.3301887, g: 0.32240123, b: 0.32240123, a: 1}
   m_FlipX: 0
@@ -6520,7 +6520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1338298703}
   - component: {fileID: 1338298702}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AlienBlock02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6577,7 +6577,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: b4f26af56d17ca74da9d1a08adffb885, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6599,7 +6599,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1468569747}
   - component: {fileID: 1468569746}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FernL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6656,7 +6656,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 8
   m_Sprite: {fileID: 21300012, guid: 2b30fc6e4ddac2545af6462ae063edad, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6678,7 +6678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1475580340}
   - component: {fileID: 1475580341}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WallTile (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6696,8 +6696,8 @@ Transform:
   m_LocalPosition: {x: 30.81, y: -5.0812974, z: 0.33373672}
   m_LocalScale: {x: 2.407, y: 2.407, z: 2.407}
   m_Children: []
-  m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 12
+  m_Father: {fileID: 6563569650178961279}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1475580341
 SpriteRenderer:
@@ -6735,7 +6735,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 6aa3a976ac9ecc54aad638ffbf4e67c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6757,7 +6757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1663605890}
   - component: {fileID: 1663605889}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AproachingWallPattern (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6775,8 +6775,8 @@ Transform:
   m_LocalPosition: {x: -9.209352, y: -4.6812973, z: 0.33373672}
   m_LocalScale: {x: 1.8781, y: 1.8781, z: 1.8781}
   m_Children: []
-  m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 7
+  m_Father: {fileID: 6563569650178961279}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1663605889
 SpriteRenderer:
@@ -6814,7 +6814,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: eb4fe75c66482e849abe326d94453aed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6837,7 +6837,7 @@ GameObject:
   - component: {fileID: 1854823965}
   - component: {fileID: 1854823967}
   - component: {fileID: 1854823966}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FloatingRockL (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6856,7 +6856,7 @@ Transform:
   m_LocalScale: {x: 1.3335481, y: 1.3335481, z: 1.3335481}
   m_Children: []
   m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 16
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1854823967
 SpriteRenderer:
@@ -6894,7 +6894,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 5222c5dbe44c8494da11d0cdcf795f18, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6935,7 +6935,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1935359398}
   - component: {fileID: 1935359399}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WallTile (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6953,8 +6953,8 @@ Transform:
   m_LocalPosition: {x: 16.42, y: -5.0812974, z: 0.33373672}
   m_LocalScale: {x: 2.407, y: 2.407, z: 2.407}
   m_Children: []
-  m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 9
+  m_Father: {fileID: 6563569650178961279}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1935359399
 SpriteRenderer:
@@ -6992,7 +6992,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 6aa3a976ac9ecc54aad638ffbf4e67c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7014,7 +7014,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1937938149}
   - component: {fileID: 1937938150}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistantMount(tilable) (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7033,7 +7033,7 @@ Transform:
   m_LocalScale: {x: 1.4463928, y: 2.223829, z: 1.4463916}
   m_Children: []
   m_Father: {fileID: 8668917179035798062}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -179.96501}
 --- !u!212 &1937938150
 SpriteRenderer:
@@ -7071,7 +7071,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 562939ad906ef07468206650fdfd5735, type: 3}
   m_Color: {r: 0.3301887, g: 0.32240123, b: 0.32240123, a: 1}
   m_FlipX: 0
@@ -11845,7 +11845,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1962668358}
   - component: {fileID: 1962668357}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BigRuinsL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11864,7 +11864,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8668917179035798062}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1962668357
 SpriteRenderer:
@@ -11902,7 +11902,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 6eba019cb0240eb4d9d8a2d06a7d6453, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11924,7 +11924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1976507033}
   - component: {fileID: 1976507034}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistantMount(tilable) (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11943,7 +11943,7 @@ Transform:
   m_LocalScale: {x: 1.4463928, y: 2.223829, z: 1.4463916}
   m_Children: []
   m_Father: {fileID: 8668917179035798062}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -179.96501}
 --- !u!212 &1976507034
 SpriteRenderer:
@@ -11981,7 +11981,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 562939ad906ef07468206650fdfd5735, type: 3}
   m_Color: {r: 0.3301887, g: 0.32240123, b: 0.32240123, a: 1}
   m_FlipX: 0
@@ -12003,7 +12003,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2009031355}
   - component: {fileID: 2009031354}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WallTile (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12021,8 +12021,8 @@ Transform:
   m_LocalPosition: {x: -2.7993512, y: -5.0812974, z: 0.33373672}
   m_LocalScale: {x: 2.407, y: 2.407, z: 2.407}
   m_Children: []
-  m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 2
+  m_Father: {fileID: 6563569650178961279}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2009031354
 SpriteRenderer:
@@ -12060,7 +12060,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 6aa3a976ac9ecc54aad638ffbf4e67c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16834,7 +16834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2111475491}
   - component: {fileID: 2111475492}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AproachingWallPattern (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16852,8 +16852,8 @@ Transform:
   m_LocalPosition: {x: 27.51, y: -4.6812973, z: 0.33373672}
   m_LocalScale: {x: 1.8781, y: 1.8781, z: 1.8781}
   m_Children: []
-  m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 14
+  m_Father: {fileID: 6563569650178961279}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2111475492
 SpriteRenderer:
@@ -16891,7 +16891,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: eb4fe75c66482e849abe326d94453aed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16913,7 +16913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2139557993}
   - component: {fileID: 2139557994}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistantCavesBG (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16932,7 +16932,7 @@ Transform:
   m_LocalScale: {x: 1.0709037, y: 1.0709037, z: 1.0709037}
   m_Children: []
   m_Father: {fileID: 8668917179035798062}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2139557994
 SpriteRenderer:
@@ -16992,7 +16992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2146017355}
   - component: {fileID: 2146017354}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WallTile (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17010,8 +17010,8 @@ Transform:
   m_LocalPosition: {x: 6.8106484, y: -5.0812974, z: 0.33373672}
   m_LocalScale: {x: 2.407, y: 2.407, z: 2.407}
   m_Children: []
-  m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 4
+  m_Father: {fileID: 6563569650178961279}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2146017354
 SpriteRenderer:
@@ -17049,7 +17049,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 6aa3a976ac9ecc54aad638ffbf4e67c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17070,8 +17070,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7805287991214567130}
-  m_Layer: 0
-  m_Name: '-------MidGround--------'
+  m_Layer: 9
+  m_Name: '-------MidGround 3 7--------'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17089,20 +17089,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 826655678}
-  - {fileID: 404834807}
-  - {fileID: 2009031355}
-  - {fileID: 1266166352}
-  - {fileID: 2146017355}
-  - {fileID: 1290736402}
-  - {fileID: 538921954}
-  - {fileID: 1663605890}
-  - {fileID: 36959636}
-  - {fileID: 1935359398}
-  - {fileID: 877708117}
-  - {fileID: 1287251951}
-  - {fileID: 1475580340}
-  - {fileID: 187951026}
-  - {fileID: 2111475491}
   - {fileID: 1639647752956369987}
   - {fileID: 1854823965}
   m_Father: {fileID: 1639647753641610619}
@@ -17117,8 +17103,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8668917179035798062}
-  m_Layer: 0
-  m_Name: '--------Distant---------'
+  m_Layer: 8
+  m_Name: '--------Distant -1 2---------'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17136,20 +17122,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1639647754035818522}
-  - {fileID: 1320989283}
-  - {fileID: 1937938149}
   - {fileID: 2139557993}
-  - {fileID: 1976507033}
-  - {fileID: 294149314}
   - {fileID: 418392152}
   - {fileID: 80091877}
+  - {fileID: 1320989283}
+  - {fileID: 1937938149}
+  - {fileID: 1976507033}
+  - {fileID: 294149314}
   - {fileID: 1123843973}
   - {fileID: 1639647754093106720}
+  - {fileID: 216847162}
   - {fileID: 1962668358}
   - {fileID: 456874337}
   - {fileID: 361140725}
   - {fileID: 557949090}
-  - {fileID: 216847162}
   m_Father: {fileID: 1639647753641610619}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17164,7 +17150,7 @@ GameObject:
   - component: {fileID: 1639647752956369987}
   - component: {fileID: 1639647752956369984}
   - component: {fileID: 1639647752956369985}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: FloatingRockR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17183,7 +17169,7 @@ Transform:
   m_LocalScale: {x: 1.1501849, y: 1.1501849, z: 1.1501849}
   m_Children: []
   m_Father: {fileID: 7805287991214567130}
-  m_RootOrder: 15
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1639647752956369984
 SpriteRenderer:
@@ -17262,7 +17248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1639647753106201678}
   - component: {fileID: 1639647753106201673}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Alcove
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17319,7 +17305,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: aac9a30c9c349534990e2d84f22e7b28, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17375,7 +17361,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1639647754035818522}
   - component: {fileID: 1639647754035818517}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DistantCavesBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17455,7 +17441,7 @@ GameObject:
   - component: {fileID: 1639647754093106720}
   - component: {fileID: 1639647754093106721}
   - component: {fileID: 1639647754093106726}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FloatingRockL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17470,7 +17456,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639647754093106723}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.37, y: 3.83, z: 2}
+  m_LocalPosition: {x: -6.37, y: 3.83, z: 3}
   m_LocalScale: {x: 1.3335481, y: 1.3335481, z: 1.3335481}
   m_Children: []
   m_Father: {fileID: 8668917179035798062}
@@ -17552,8 +17538,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6563569650178961279}
-  m_Layer: 0
-  m_Name: '---------ForeGround----------'
+  m_Layer: 10
+  m_Name: '---------ForeGround 8----------'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17577,6 +17563,20 @@ Transform:
   - {fileID: 576638165}
   - {fileID: 1468569747}
   - {fileID: 1166707580}
+  - {fileID: 404834807}
+  - {fileID: 2009031355}
+  - {fileID: 1266166352}
+  - {fileID: 2146017355}
+  - {fileID: 1290736402}
+  - {fileID: 1935359398}
+  - {fileID: 877708117}
+  - {fileID: 1287251951}
+  - {fileID: 1475580340}
+  - {fileID: 538921954}
+  - {fileID: 1663605890}
+  - {fileID: 36959636}
+  - {fileID: 187951026}
+  - {fileID: 2111475491}
   m_Father: {fileID: 1639647753641610619}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
