@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{39450984-00C0-1A85-ACA5-73F78F930100}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ButtonManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameSession.cs">
     <Files>
       <File FileName="Assets/Scripts/SceneLoader.cs" Line="38" Column="52" />
       <File FileName="Assets/Scripts/SplashTextFade.cs" />
@@ -8,14 +8,15 @@
       <File FileName="Assets/Scripts/Timer.cs" />
       <File FileName="Assets/Scripts/MathGame.cs" />
       <File FileName="../../../../../Desktop/Qball_Games_Node/package.json" />
-      <File FileName="Assets/Scripts/MainMenuCamera.cs" Line="20" Column="6" />
+      <File FileName="Assets/Scripts/MainMenuCamera.cs" />
       <File FileName="Assets/Scripts/ButtonManager.cs" Line="42" Column="42" />
       <File FileName="Assets/Games SDK for Alexa/Examples/LightControlDemo.cs" />
+      <File FileName="Assets/Scripts/GameSession.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="13f5ddef-80ee-4b2d-b3d5-bc3b5402d13c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="95aced8b-3802-47a6-befa-89f0079368bb" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

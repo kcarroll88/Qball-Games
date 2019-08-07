@@ -13,7 +13,6 @@ public class SceneLoader : MonoBehaviour
         if (currentSceneIndex == 0)
         {
             StartCoroutine(SplashScreenTime());
-            LoadNextScene();
         }
     }
 
@@ -33,6 +32,12 @@ public class SceneLoader : MonoBehaviour
         Application.Quit();
     }
 
+    public void GameOver()
+    {
+        // TODO
+        throw new Exception();
+    }
+
     public void MathHotPotatoe()
     {
         SceneManager.LoadScene("Math Hot Potatoe");
@@ -41,5 +46,6 @@ public class SceneLoader : MonoBehaviour
     IEnumerator SplashScreenTime()
     {
         yield return new WaitForSeconds(3f);
+        LoadNextScene();
     }
 }

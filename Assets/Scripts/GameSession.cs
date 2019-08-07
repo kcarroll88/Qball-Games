@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class GameSession : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
+        int numGameSessions = FindObjectsOfType<GameSession>().Length;
+
+        if (numGameSessions > 1)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void ResetGameSession()
     {
-        
+        // TODO
+        FindObjectOfType<SceneLoader>().GameOver();
+        Destroy(gameObject);
     }
+
 }
