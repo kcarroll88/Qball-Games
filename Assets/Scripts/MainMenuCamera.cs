@@ -19,12 +19,6 @@ public class MainMenuCamera : MonoBehaviour
         myAnimator.SetBool("menuClicked", false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void MoveCameraGamePicker()
     {
         myAnimator.SetBool("menuClicked", false);
