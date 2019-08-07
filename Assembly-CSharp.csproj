@@ -326,6 +326,7 @@
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
     <Compile Include="Assets\Scripts\Clouds.cs" />
     <Compile Include="Assets\Scripts\CloudSpawner.cs" />
+    <Compile Include="Assets\Scripts\GameSession.cs" />
     <Compile Include="Assets\Scripts\MainMenuCamera.cs" />
     <Compile Include="Assets\Scripts\MathGame.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
