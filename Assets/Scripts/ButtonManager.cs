@@ -44,11 +44,12 @@ public class ButtonManager : MonoBehaviour
         hotPotatoeButton.SetActive(false);
         backButton.SetActive(false);
     }
-    // Fix this shiiiiiit!
+
     IEnumerator GameMenuCoroutine()
     {
-        DisableGameButtons();
         yield return new WaitForSeconds(1f);
+        hotPotatoeButton.SetActive(true);
+        backButton.SetActive(true);
     }
 
     IEnumerator MainMenuCoroutine()
