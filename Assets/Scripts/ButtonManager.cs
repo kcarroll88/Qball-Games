@@ -38,10 +38,22 @@ public class ButtonManager : MonoBehaviour
         StartCoroutine(GameMenuCoroutine());
     }
 
+    public void DisableGameButtons()
+    {
+        StartCoroutine(MainMenuCoroutine());
+        hotPotatoeButton.SetActive(false);
+        backButton.SetActive(false);
+    }
+
     IEnumerator GameMenuCoroutine()
     {
+        DisableGameButtons();
         yield return new WaitForSeconds(1f);
-        hotPotatoeButton.SetActive(true);
-        backButton.SetActive(true);
+    }
+
+    IEnumerator MainMenuCoroutine()
+    {
+        yield return new WaitForSeconds(1f);
+        EnableMainMenuButtons();
     }
 }
