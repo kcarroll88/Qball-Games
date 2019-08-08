@@ -25,7 +25,7 @@ public class ButtonManager : MonoBehaviour
         quitButton.SetActive(true);
         qballMainMenuText.SetActive(true);
     }
-
+    // Testing
     public void DisableMainMenuButtons()
     {
         startButton.SetActive(false);
