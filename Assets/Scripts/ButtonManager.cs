@@ -9,12 +9,14 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] GameObject quitButton;
     [SerializeField] GameObject qballMainMenuText;
     [SerializeField] GameObject hotPotatoeButton;
+    [SerializeField] GameObject backButton;
 
     // Start is called before the first frame update
     void Start()
     {
         EnableMainMenuButtons();
         hotPotatoeButton.SetActive(false);
+        backButton.SetActive(false);
     }
 
     public void EnableMainMenuButtons()
@@ -40,5 +42,6 @@ public class ButtonManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         hotPotatoeButton.SetActive(true);
+        backButton.SetActive(true);
     }
 }
