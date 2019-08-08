@@ -44,7 +44,7 @@ public class ButtonManager : MonoBehaviour
         hotPotatoeButton.SetActive(false);
         backButton.SetActive(false);
     }
-
+    // Fix this shiiiiiit!
     IEnumerator GameMenuCoroutine()
     {
         DisableGameButtons();
