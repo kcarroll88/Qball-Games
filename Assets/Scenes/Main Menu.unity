@@ -1442,6 +1442,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1713915777}
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1174251686
@@ -1987,6 +1998,7 @@ MonoBehaviour:
   qballMainMenuText: {fileID: 426889315}
   hotPotatoeButton: {fileID: 1744503247}
   backButton: {fileID: 1881938636}
+  buttonClicked: {fileID: 8300000, guid: f22af55fbb23f481a8319945cc29c6e3, type: 3}
 --- !u!1 &1731093597
 GameObject:
   m_ObjectHideFlags: 0
@@ -2377,6 +2389,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1996810653}
         m_MethodName: MathHotPotatoe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1713915777}
+        m_MethodName: PlaySound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -10,6 +10,8 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] GameObject qballMainMenuText;
     [SerializeField] GameObject hotPotatoeButton;
     [SerializeField] GameObject backButton;
+    [Header("Audio")]
+    [SerializeField] AudioClip buttonClicked;
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +45,11 @@ public class ButtonManager : MonoBehaviour
         StartCoroutine(MainMenuCoroutine());
         hotPotatoeButton.SetActive(false);
         backButton.SetActive(false);
+    }
+
+    public void PlaySound()
+    {
+        AudioSource.PlayClipAtPoint(buttonClicked, Camera.main.transform.position);
     }
 
     IEnumerator GameMenuCoroutine()
