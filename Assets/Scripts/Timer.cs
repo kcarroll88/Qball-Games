@@ -24,9 +24,13 @@ public class Timer : MonoBehaviour
     private void Countdown()
     {
         countdownTime -= Time.deltaTime;
-        if (countdownTime >= 1)
+        if (countdownTime >= 0)
         {
             timerText.text = countdownTime.ToString("F0");
+        }
+        else if (countdownTime == 0)
+        {
+            FindObjectOfType<SceneLoader>().GameOver();
         }
     }
 }

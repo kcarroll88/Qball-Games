@@ -34,13 +34,12 @@ public class SceneLoader : MonoBehaviour
 
     public void GameOver()
     {
-        // TODO
-        throw new Exception();
+        SceneManager.LoadScene(1);
     }
 
     public void MathHotPotatoe()
     {
-        SceneManager.LoadScene("Math Hot Potatoe");
+        SceneManager.LoadScene("Math Hot Potato");
     }
 
     IEnumerator SplashScreenTime()

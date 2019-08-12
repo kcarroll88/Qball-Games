@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 1030
-  m_MinSize: {x: 404, y: 344}
-  m_MaxSize: {x: 8004, y: 8044}
+  m_MinSize: {x: 402, y: 322}
+  m_MaxSize: {x: 8002, y: 8022}
   vertical: 1
-  controlID: 3088
+  controlID: 6936
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -127,10 +127,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 711
-  m_MinSize: {x: 404, y: 222}
-  m_MaxSize: {x: 8004, y: 4022}
+  m_MinSize: {x: 402, y: 222}
+  m_MaxSize: {x: 8002, y: 4022}
   vertical: 0
-  controlID: 3014
+  controlID: 6894
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,8 +150,8 @@ MonoBehaviour:
     y: 0
     width: 938
     height: 711
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -188,14 +188,14 @@ MonoBehaviour:
   m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 0
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -7.003667, y: 19.69651, z: 1357.878}
+    m_Target: {x: 18.953564, y: -1.3772564, z: 157.77051}
     speed: 2
-    m_Value: {x: -7.003667, y: 19.69651, z: 1357.878}
+    m_Value: {x: 18.953564, y: -1.3772564, z: 157.77051}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -216,25 +216,25 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-    zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
   m_Rotation:
-    m_Target: {x: 0.0071898894, y: 0.0020960413, z: 0.000011649997, w: -0.99998367}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0.0071898056, y: 0.002096017, z: 0.00001164986, w: -0.999972}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1368.7172
+    m_Target: 19.315876
     speed: 2
-    m_Value: 1368.7172
+    m_Value: 19.315876
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.49748743
@@ -336,7 +336,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 20844
+  m_LastSelectedObjectID: 30894
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -366,6 +366,8 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: -8268585031619481900, guid: b0bbedb9918d64c299f2a3c5fcecb54b, type: 2}
+    - {fileID: 4415552111574968012, guid: 39dd02f42c8934b1a887556ac17e1871, type: 2}
+    - {fileID: 6969190783622506311, guid: 49c35f0df7d71483f86af0d9ffa512b2, type: 2}
     m_ValueSerializationHelper:
     - e00: 1
       e01: 0
@@ -383,11 +385,43 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: b0bbedb9918d64c299f2a3c5fcecb54b,
+  m_AnimatorController: {fileID: 9100000, guid: 49c35f0df7d71483f86af0d9ffa512b2,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -8268585031619481900, guid: b0bbedb9918d64c299f2a3c5fcecb54b,
+  - m_Target: {fileID: 6969190783622506311, guid: 49c35f0df7d71483f86af0d9ffa512b2,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
