@@ -13,7 +13,7 @@ public class ButtonManager : MonoBehaviour
     [SerializeField] GameObject backButton;
     [Header("Audio")]
     [SerializeField] AudioClip confirmButton;
-    [SerializeField] AudioClip backButton;
+    [SerializeField] AudioClip cancelButton;
 
     // Start is called before the first frame update
     void Start()
