@@ -5,13 +5,15 @@ using UnityEngine;
 
 public class ButtonManager : MonoBehaviour
 {
+    [Header("GameObjects")]
     [SerializeField] GameObject startButton;
     [SerializeField] GameObject quitButton;
     [SerializeField] GameObject qballMainMenuText;
     [SerializeField] GameObject hotPotatoeButton;
     [SerializeField] GameObject backButton;
     [Header("Audio")]
-    [SerializeField] AudioClip buttonClicked;
+    [SerializeField] AudioClip confirmButton;
+    [SerializeField] AudioClip backButton;
 
     // Start is called before the first frame update
     void Start()
@@ -49,7 +51,7 @@ public class ButtonManager : MonoBehaviour
 
     public void PlaySound()
     {
-        AudioSource.PlayClipAtPoint(buttonClicked, Camera.main.transform.position);
+        AudioSource.PlayClipAtPoint(confirmButton, Camera.main.transform.position);
     }
 
     IEnumerator GameMenuCoroutine()

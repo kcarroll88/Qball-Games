@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 344}
   m_MaxSize: {x: 8004, y: 8044}
   vertical: 1
-  controlID: 2008
+  controlID: 8680
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 222}
   m_MaxSize: {x: 8004, y: 4022}
   vertical: 0
-  controlID: 1966
+  controlID: 8681
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,9 +193,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 474.0998, y: 287.08002, z: 636.125}
+    m_Target: {x: 469.10327, y: 281.62845, z: 634.56744}
     speed: 2
-    m_Value: {x: 474.0998, y: 287.08002, z: 636.125}
+    m_Value: {x: 469.10327, y: 281.62845, z: 634.56744}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -228,9 +228,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 566.1771
+    m_Target: 586.5834
     speed: 2
-    m_Value: 566.1771
+    m_Value: 586.5834
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -248,7 +248,7 @@ MonoBehaviour:
     m_DynamicClip: 1
     m_OcclusionCulling: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.055780835, y: -0.0009013401, z: 0.00005067464, w: -0.9984428}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -336,7 +336,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 20756
+  m_LastSelectedObjectID: 20864
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
