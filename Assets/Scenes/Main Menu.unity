@@ -530,6 +530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraSpeed: 0
+  woosh: {fileID: 8300000, guid: e02de70c2145848dda8bcac8b746e405, type: 3}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1433,17 +1434,6 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1713915777}
         m_MethodName: EnableGameButtons
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1713915777}
-        m_MethodName: PlaySound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2526,7 +2516,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1713915777}
-        m_MethodName: PlaySound
+        m_MethodName: PlayConfirmSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2609,10 +2599,10 @@ RectTransform:
   m_Father: {fileID: 1713915776}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.4493507, y: 0.26900002}
-  m_AnchorMax: {x: 0.5528918, y: 0.32123256}
-  m_AnchoredPosition: {x: 2.0720978, y: -2}
-  m_SizeDelta: {x: 3.3710022, y: 5.549988}
+  m_AnchorMin: {x: 0.4493507, y: 0.2853024}
+  m_AnchorMax: {x: 0.5528918, y: 0.342}
+  m_AnchoredPosition: {x: 1.9765, y: -2}
+  m_SizeDelta: {x: 3.3710022, y: -0.4500122}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1881938638
 MonoBehaviour:
@@ -2670,17 +2660,6 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 519420030}
         m_MethodName: MoveCameraMainMenu
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1713915777}
-        m_MethodName: PlayCancelSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
