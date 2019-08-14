@@ -9,7 +9,7 @@ public class SplashTextFade : MonoBehaviour
     //Fade time in seconds
     [SerializeField] public float fadeOutTime;
 
-    private void Update() 
+    void Update() 
     {
         FadeOut();
     }
