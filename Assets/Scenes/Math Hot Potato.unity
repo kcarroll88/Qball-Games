@@ -1394,9 +1394,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194dfb88befcb4334a7fdcbfb3fe836e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdownTime: 10
+  countdownTime: 15
   timerText: {fileID: 555689893}
-  countdownBeep: {fileID: 8300000, guid: 0d411ca9cb35a44bc84b93cc24a8c0a1, type: 3}
+  countdownBeep: {fileID: 0}
 --- !u!1 &567649786
 GameObject:
   m_ObjectHideFlags: 0
@@ -2550,7 +2550,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008206538}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.892021, y: 4.9010744, z: 859.2}
+  m_LocalPosition: {x: -10.62, y: 4.9010744, z: 859.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1436592305}
@@ -2579,7 +2579,7 @@ MonoBehaviour:
   - {fileID: 1536914256}
   - {fileID: 1817289690}
   minSpawnSpeed: 20
-  maxSpawnSpeed: 60
+  maxSpawnSpeed: 40
 --- !u!1 &1026377241
 GameObject:
   m_ObjectHideFlags: 0
@@ -3543,7 +3543,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8b768ba35b5034be2b0b949463988798, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c4200059a54ae45f5a9f97c03ef4da55, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -4206,7 +4206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711585872}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.892021, y: 6.4910746, z: 859.2}
+  m_LocalPosition: {x: -10.62, y: 6.4910746, z: 859.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1436592305}
@@ -4235,7 +4235,7 @@ MonoBehaviour:
   - {fileID: 1536914256}
   - {fileID: 1817289690}
   minSpawnSpeed: 20
-  maxSpawnSpeed: 60
+  maxSpawnSpeed: 40
 --- !u!1 &1732286539
 GameObject:
   m_ObjectHideFlags: 0

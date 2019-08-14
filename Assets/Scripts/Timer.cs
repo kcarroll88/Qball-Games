@@ -31,7 +31,8 @@ public class Timer : MonoBehaviour
         {
             if (countdownTime <= 10)
             {
-                StartCoroutine(CountdownSound());
+                // TODO fix so audio only plays once a second
+                // StartCoroutine(CountdownSound());
             }
             timerText.text = countdownTime.ToString("F0");
         }
@@ -41,9 +42,9 @@ public class Timer : MonoBehaviour
         }
     }
 
-    IEnumerator CountdownSound()
-    {
-        AudioSource.PlayClipAtPoint(countdownBeep, Camera.main.transform.position);
-        yield return new WaitForSeconds(1f);
-    }
+    // IEnumerator CountdownSound()
+    // {
+    //     AudioSource.PlayClipAtPoint(countdownBeep, Camera.main.transform.position);
+    //     yield return new WaitForSeconds(1f);
+    // }
 }
