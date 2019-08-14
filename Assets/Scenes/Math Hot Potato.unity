@@ -1396,6 +1396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countdownTime: 10
   timerText: {fileID: 555689893}
+  countdownBeep: {fileID: 8300000, guid: 0d411ca9cb35a44bc84b93cc24a8c0a1, type: 3}
 --- !u!1 &567649786
 GameObject:
   m_ObjectHideFlags: 0

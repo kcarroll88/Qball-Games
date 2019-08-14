@@ -9,6 +9,8 @@ public class Timer : MonoBehaviour
 {
     [SerializeField] float countdownTime;
     [SerializeField] Text timerText;
+    [Header("Audio")]
+    [SerializeField] AudioClip countdownBeep;
 
     // Start is called before the first frame update
     void Start()
@@ -25,13 +27,23 @@ public class Timer : MonoBehaviour
     private void Countdown()
     {
         countdownTime -= Time.deltaTime;
-        if (countdownTime >= 0)
+        if (countdownTime > 0)
         {
+            if (countdownTime <= 10)
+            {
+                StartCoroutine(CountdownSound());
+                yield return new WaitForSeconds(1f);
+            }
             timerText.text = countdownTime.ToString("F0");
         }
         else if (countdownTime == 0)
         {
             FindObjectOfType<SceneLoader>().GameOver();
         }
+    }
+
+    IEnumerator CountdownSound()
+    {
+        AudioSource.PlayClipAtPoint(countdownBeep, Camera.main.transform.position);
     }
 }
