@@ -36,7 +36,7 @@ public class Timer : MonoBehaviour
             }
             timerText.text = countdownTime.ToString("F0");
         }
-        else if (countdownTime == 0)
+        else if (countdownTime == -1)
         {
             FindObjectOfType<SceneLoader>().GameOver();
         }
