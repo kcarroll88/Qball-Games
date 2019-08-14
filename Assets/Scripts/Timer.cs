@@ -32,7 +32,6 @@ public class Timer : MonoBehaviour
             if (countdownTime <= 10)
             {
                 StartCoroutine(CountdownSound());
-                yield return new WaitForSeconds(1f);
             }
             timerText.text = countdownTime.ToString("F0");
         }
@@ -44,6 +43,7 @@ public class Timer : MonoBehaviour
 
     IEnumerator CountdownSound()
     {
+        yield return new WaitForSeconds(1f);
         AudioSource.PlayClipAtPoint(countdownBeep, Camera.main.transform.position);
     }
 }
