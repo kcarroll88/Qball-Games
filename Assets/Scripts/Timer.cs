@@ -43,7 +43,7 @@ public class Timer : MonoBehaviour
 
     IEnumerator CountdownSound()
     {
-        yield return new WaitForSeconds(1f);
         AudioSource.PlayClipAtPoint(countdownBeep, Camera.main.transform.position);
+        yield return new WaitForSeconds(1f);
     }
 }
