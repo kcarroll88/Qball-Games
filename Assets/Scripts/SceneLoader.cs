@@ -34,6 +34,7 @@ public class SceneLoader : MonoBehaviour
 
     public void GameOver()
     {
+      // TODO make it more interesting
         SceneManager.LoadScene(1);
     }
 

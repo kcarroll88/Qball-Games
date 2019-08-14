@@ -49,9 +49,14 @@ public class ButtonManager : MonoBehaviour
         backButton.SetActive(false);
     }
 
-    public void PlaySound()
+    public void PlayConfirmSound()
     {
         AudioSource.PlayClipAtPoint(confirmButton, Camera.main.transform.position);
+    }
+
+    public void PlayCancelSound()
+    {
+        AudioSource.PlayClipAtPoint(cancelButton, Camera.main.transform.position);
     }
 
     IEnumerator GameMenuCoroutine()

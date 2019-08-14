@@ -1998,8 +1998,8 @@ MonoBehaviour:
   qballMainMenuText: {fileID: 426889315}
   hotPotatoeButton: {fileID: 1744503247}
   backButton: {fileID: 1881938636}
-  confirmButton: {fileID: 0}
-  cancelButton: {fileID: 0}
+  confirmButton: {fileID: 8300000, guid: f22af55fbb23f481a8319945cc29c6e3, type: 3}
+  cancelButton: {fileID: 8300000, guid: c0faf888b33034692860626511aef29f, type: 3}
 --- !u!1 &1731093597
 GameObject:
   m_ObjectHideFlags: 0
@@ -2670,6 +2670,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 519420030}
         m_MethodName: MoveCameraMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1713915777}
+        m_MethodName: PlayCancelSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
