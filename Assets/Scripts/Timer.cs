@@ -31,7 +31,7 @@ public class Timer : MonoBehaviour
         {
             if (countdownTime <= 10)
             {
-                // TODO fix so audio only plays once a second
+                // TODO: fix so audio only plays once a second
                 // StartCoroutine(CountdownSound());
             }
             timerText.text = countdownTime.ToString("F0");
