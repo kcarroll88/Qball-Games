@@ -275,6 +275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 691678845}
   - component: {fileID: 691678847}
+  - component: {fileID: 691678848}
   - component: {fileID: 691678846}
   m_Layer: 5
   m_Name: Peeq Games Text
@@ -423,6 +424,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691678844}
   m_CullTransparentMesh: 0
+--- !u!114 &691678848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691678844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16d2c9d93847b412eb2701d314d04e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeOutTime: 3
 --- !u!1 &800707201
 GameObject:
   m_ObjectHideFlags: 0
