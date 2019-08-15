@@ -3,24 +3,37 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class SplashTextFade : MonoBehaviour
 {
-    //Fade time in seconds
     [SerializeField] public float fadeOutTime;
+    [SerializeField] public float fadeInTime;
+
+    public bool transparent;
 
     void Update() 
     {
-        FadeOut();
+        if (transparent) 
+        {
+            // StartCoroutine(FadeIn());
+        }
+        else if (!transparent)
+        {
+            StartCoroutine(FadeOut());
+        }
+        
     }
 
-    public void FadeOut()
-    {
-        StartCoroutine(FadeOutRoutine());
-    }
+    // private IEnumerator FadeIn()
+    // {
+    //     transparent = true;
+    // }
 
-    private IEnumerator FadeOutRoutine()
+    private IEnumerator FadeOut()
     {
+        transparent = false;
+
         Text text = GetComponent<Text>();
         Color originalColor = text.color;
 
