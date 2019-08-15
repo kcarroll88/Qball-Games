@@ -196,6 +196,8 @@ GameObject:
   m_Component:
   - component: {fileID: 596490948}
   - component: {fileID: 596490947}
+  - component: {fileID: 596490949}
+  - component: {fileID: 596490950}
   m_Layer: 0
   m_Name: Peeq Logo
   m_TagString: Untagged
@@ -241,7 +243,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 05b19500e2b9549f1bf72bfa36788c0e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -259,12 +261,44 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 596490946}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -277.76, y: -156.48, z: 0}
+  m_LocalPosition: {x: -467.39, y: -262.71, z: 0}
   m_LocalScale: {x: 1.788585, y: 1.788585, z: 1.788585}
   m_Children: []
   m_Father: {fileID: 1629897384}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &596490949
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596490946}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 92aafbb3878194e1586a0fbae56a8593, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &596490950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596490946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16d2c9d93847b412eb2701d314d04e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transparent: 1
 --- !u!1 &800707201
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16d2c9d93847b412eb2701d314d04e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeOutTime: 3
+  transparent: 0
 --- !u!114 &1111598846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -594,7 +628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16d2c9d93847b412eb2701d314d04e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeOutTime: 3
+  transparent: 0
 --- !u!222 &1181042665
 CanvasRenderer:
   m_ObjectHideFlags: 0

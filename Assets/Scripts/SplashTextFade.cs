@@ -7,40 +7,17 @@ using System;
 
 public class SplashTextFade : MonoBehaviour
 {
-    [SerializeField] public float fadeOutTime;
-    [SerializeField] public float fadeInTime;
+    // [SerializeField] public float fadeOutTime;
+    // [SerializeField] public float fadeInTime;
 
-    public bool transparent;
+    public bool transparent = false;
 
-    void Update() 
+    Animator myAnimator;
+
+    void Start() 
     {
-        if (transparent) 
-        {
-            // StartCoroutine(FadeIn());
-        }
-        else if (!transparent)
-        {
-            StartCoroutine(FadeOut());
-        }
-        
-    }
-
-    // private IEnumerator FadeIn()
-    // {
-    //     transparent = true;
-    // }
-
-    private IEnumerator FadeOut()
-    {
-        transparent = false;
-
-        Text text = GetComponent<Text>();
-        Color originalColor = text.color;
-
-        for (float t = 0.01f; t < fadeOutTime; t += Time.deltaTime)
-        {
-            text.color = Color.Lerp(originalColor, Color.clear, Mathf.Min(1, t / fadeOutTime));
-            yield return null;
-        }
+        myAnimator = GetComponent<Animator>();
+        myAnimator.SetBool("isTransparent", false);
+        myAnimator.SetBool("isTransparent", true);
     }
 }
