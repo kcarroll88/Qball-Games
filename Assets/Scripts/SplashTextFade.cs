@@ -7,10 +7,7 @@ using System;
 
 public class SplashTextFade : MonoBehaviour
 {
-    // [SerializeField] public float fadeOutTime;
-    // [SerializeField] public float fadeInTime;
-
-    public bool transparent = false;
+   public bool transparent = false;
 
     Animator myAnimator;
 
