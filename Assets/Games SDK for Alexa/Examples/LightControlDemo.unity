@@ -342,7 +342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   publishKey: pub-c-429bc7e5-e5a0-4769-bad9-565531292625
   subscribeKey: sub-c-fd5c6530-b529-11e9-a7af-c6813fdf1366
-  channel: FILL
+  channel: YPQBU
   tableName: AlexaPlusUnityTest
   identityPoolId: us-east-1:beab26c6-6f08-4922-a7e1-f74ce9ed09ec
   AWSRegion: RegionEndpoint.USEast1

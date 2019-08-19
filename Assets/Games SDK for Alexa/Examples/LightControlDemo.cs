@@ -52,10 +52,11 @@ public class LightControlDemo : MonoBehaviour
         {//If the AlexaUserId has not been recieved from Alexa (If the user has not opened the skill)
             Debug.LogError("'alexaUserDynamoKey' not found in PlayerPrefs. We must establish connection from Alexa to set this. Please open the skill to set the 'AlexaUserId' PlayerPref.");
         } else {
+            
             alexaManager.GetSessionAttributes((result) =>
             {
-                if (result.IsError)
-                    Debug.LogError(result.Exception.Message);
+                //if (result.IsError)
+                //    Debug.LogError(result.Exception.Message);
                 UpdateLight("Color", "blue", result);
             });
         }

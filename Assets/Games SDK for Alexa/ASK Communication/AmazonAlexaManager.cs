@@ -113,6 +113,7 @@ namespace AmazonsAlexa.Unity.AlexaCommunicationModule
                 if (_dynamoClient == null)
                 {
                     _dynamoClient = new AmazonDynamoDBClient(Credentials, _AWSRegion);
+                    Debug.Log("HELLO");
                 }
 
                 return _dynamoClient;
