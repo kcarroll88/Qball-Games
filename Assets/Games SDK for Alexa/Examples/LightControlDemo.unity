@@ -344,8 +344,8 @@ MonoBehaviour:
   subscribeKey: sub-c-fd5c6530-b529-11e9-a7af-c6813fdf1366
   channel: YPQBU
   tableName: AlexaPlusUnityTest
-  identityPoolId: us-east-1:beab26c6-6f08-4922-a7e1-f74ce9ed09ec
-  AWSRegion: RegionEndpoint.USEast1
+  identityPoolId: us-east-1:7832dacb-aad1-41fa-a98c-fb5ee7900725
+  AWSRegion: Regions.US_EAST_1
   debug: 1
   lightCube: {fileID: 746727071}
   camera: {fileID: 587027328}
