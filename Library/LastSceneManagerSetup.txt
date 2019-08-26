@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Games SDK for Alexa/Examples/LightControlDemo.unity
+- path: Assets/Scenes/Math Hot Potato.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
